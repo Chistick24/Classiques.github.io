@@ -1,0 +1,271 @@
+/*
+css
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Kurale');
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One|Russo+One');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*оформление web-страницы*/
+  
+body {
+	 background-color: #f0ebeb;
+     width: 960px;
+     height: 100%;
+     padding-left: 155px;
+ }
+#all-page {
+	background: rgb(255, 255, 255);
+	width: 960 px;
+	height: 100%;
+	display: block;
+    position: relative;    
+}
+
+/*ШАПКА*/
+
+#header {
+    position:relative ;
+    width: 960px;
+    height: 320px
+}
+
+
+/*МЕНЮ*/
+
+#nav-menu {  
+    height: 73px;
+    width: 960px;
+}
+#nav-menu ul li {
+    float: left;
+    position: relative;
+    height: 73px;
+    background: #f7aaaa;
+    width: 160px;
+}
+#nav-menu ul li a {
+    color: #898888;
+    padding-left: 24px;  
+    font-family: 'Kurale', serif;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    display: block;
+    position: absolute;
+    
+    height: 80px;
+}
+#nav-menu ul li:hover {
+    background:#f49191;
+}
+    
+/*ЗВОНОК и АКЦИЯ*/
+
+#image-discount {
+    position:relative;
+    width:600px;
+    height:250px;
+    float:right;
+    background: rgb(255, 239, 218);
+}
+#call-form {
+    position:relative;
+    width:360px;
+    height:250px;
+    float:left;
+    background:rgb(255, 239, 218);
+}
+
+/*ОФОРМЛЕНИЕ ВИДОВ УСЛУГ И ЦЕН*/
+
+#info-divan {
+    
+    background: rgb(234, 250, 202);
+    width:960px;
+    float:left;
+}
+.image-option {
+    height: 320px;
+    width: 450px;
+    float: left;
+    display: table;
+    position: relative;
+}
+.content-option {
+    display: table;
+    height: 320px;
+    width: 510px;
+    position: relative;
+    color:#b4ba20;
+    border-color: #000000;
+    font-size:20px;
+    font-family:'Kurale', serif;
+    text-align: center;
+}
+
+
+#info-armchair {
+    
+    background: rgb(234, 250, 202);
+}
+.image-option {
+    height: 320px;
+    width: 450px;
+    float: left;
+    display: table;
+    position: relative;
+}
+.content-option {
+    display: table;
+    height: 320px;
+    width: 510px;
+    position: relative;
+    color:#b4ba20;
+    border-color: #000000;
+    font-size:20px;
+    font-family:'Kurale', serif;
+    text-align: center;
+}
+
+
+#info-chair {
+    background: rgb(234, 250, 202);
+}
+.image-option {
+    height: 320px;
+    width: 450px;
+    float: left;
+    display: table;
+    position: relative;
+}
+.content-option {
+    display: table;
+    height: 320px;
+    width: 510px;
+    position: relative;
+    color:#b4ba20;
+    border-color: #000000;
+    font-size:20px;
+    font-family:'Kurale', serif;
+    text-align: center;
+}
+
+
+#info-mattress {
+    background: rgb(234, 250, 202);
+}
+.image-option {
+    height: 320px;
+    width: 450px;
+    float: left;
+    display: table;
+    position: relative;
+}
+.content-option {
+    display: table;
+    height: 320px;
+    width: 510px;
+    position: relative;
+    color:#b4ba20;
+    border-color: #000000;
+    font-size:20px;
+    font-family:'Kurale', serif;
+    text-align: center;
+}
+
+
+#info-carpet {
+    background: rgb(234, 250, 202);
+}
+.image-option {
+    height: 320px;
+    width: 450px;
+    float: left;
+    display: table;
+    position: relative;
+}
+.content-option {
+    display: table;
+    height: 320px;
+    width: 510px;
+    position: relative;
+    color:#b4ba20;
+    border-color: #000000;
+    font-size:20px;
+    font-family:'Kurale', serif;
+    text-align: center;
+}
+
+
+
+/*ОФОРМЛЕНИЕ ФУТЕРА*/
+
+#footer {
+    background-attachment: fixed;
+    background: rgb(255, 239, 218);
+    font-size: 26px;
+    font-family: 'Russo One', sans-serif; 
+}
+#audi {
+    background-color: white;
+    float: left;
+    display: relative;
+    width: 960px;
+    height: 36px;
+}
+
+
+
+
